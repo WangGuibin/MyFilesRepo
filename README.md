@@ -4,7 +4,7 @@
 ## 读取图片规则:
 
 直接读取repo地址
-**https://github.com/<UserName>/<RepoName>/blob/<BranchName>/images/<FileName>?raw=true**
+https://github.com/UserName/RepoName/blob/BranchName/images/FileName?raw=true
 
 或者部署到`git-pages`
 **http://wangguibin.github.io/post-images/1560696125636.png**
@@ -25,7 +25,7 @@
 
 ## 一些Github的实用小技巧
 ### 下载某分支代码
-**https://github.com/<UserName>/<RepoName>/archive/<BranchName>.zip**
+https://github.com/UserName/RepoName/archive/BranchName.zip
 ### 只下载部分目录或者文件
 **http://zhoudaxiaa.gitee.io/downgit/#/home**
 

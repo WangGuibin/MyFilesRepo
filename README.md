@@ -23,6 +23,11 @@ https://github.com/UserName/RepoName/blob/BranchName/images/FileName?raw=true
 
 ```
 
+```html
+<!-- 免费的CDN小技巧 https://cdn.jsdelivr.net/gh/<username>/<repoName>/xxx/xxx 真的香~  -->
+![](https://cdn.jsdelivr.net/gh/WangGuibin/MyFilesRepo/images/avatar.png)
+```
+
 ## 一些Github的实用小技巧
 ### 下载某分支代码
 https://github.com/UserName/RepoName/archive/BranchName.zip

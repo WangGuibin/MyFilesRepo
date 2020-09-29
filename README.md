@@ -48,3 +48,9 @@ https://carbon.now.sh
 https://shields.io
 ```
 
+### [生成star统计数据图表](https://stars.medv.io)
+```
+https://stars.medv.io
+```
+https://starchart.cc/caarlos0/starcharts
+

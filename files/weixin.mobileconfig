@@ -14,7 +14,7 @@
 			<key>IsRemovable</key>
 			<false/>
 			<key>Label</key>
-			<string>微信副本</string>
+			<string>WeChat🐶</string>
 			<key>PayloadDescription</key>
 			<string>微信分身啦快来体验啦</string>
 			<key>PayloadDisplayName</key>
@@ -36,7 +36,7 @@
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>未命名</string>
+	<string>微信副本描述文件</string>
 	<key>PayloadIdentifier</key>
 	<string>wangguibindeMacBook-Pro.1B2562E8-E153-48A4-953E-49CCB884CA5F</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -46,6 +46,6 @@
 	<key>PayloadUUID</key>
 	<string>5458472D-1C5E-4B56-803B-48EEE68112E5</string>
 	<key>PayloadVersion</key>
-	<integer>1</integer>
+	<integer>2</integer>
 </dict>
 </plist>

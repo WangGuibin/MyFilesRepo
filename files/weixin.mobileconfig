@@ -1435,11 +1435,11 @@
 			<key>IsRemovable</key>
 			<false/>
 			<key>Label</key>
-			<string>微信</string>
+			<string>微信副本</string>
 			<key>PayloadDescription</key>
-			<string>配置 Web Clip 设置</string>
+			<string>微信分身啦快来体验啦</string>
 			<key>PayloadDisplayName</key>
-			<string>Web Clip</string>
+			<string>微信分身哈哈😄</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.webClip.managed.A96D04AC-8026-4F78-9365-1D304700D7A7</string>
 			<key>PayloadType</key>
@@ -1452,6 +1452,8 @@
 			<false/>
 			<key>URL</key>
 			<string>weixin://</string>
+			<key>TargetApplicationBundleIdentifier</key>
+               		<string>com.tencent.xin</string>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>

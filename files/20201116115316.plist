@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<!-- ipa文件所在地址(一般为局域网地址) -->
+					<string>http://192.168.1.174:8080/test.ipa</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<!-- bundleID -->
+				<string>com.huimingzhigou.www</string>
+				<key>bundle-version</key>
+				<string>2.0.4</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>会员港(如果安装失败，卸载重装或者找开发人员添加UDID)</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

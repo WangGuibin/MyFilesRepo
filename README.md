@@ -38,6 +38,7 @@ URL=$1
 RES=${URL_Prefix}${URL: ${#MATCH_Prefix}}
 FILE_URL=${RES%blob*}${RES#*blob/*/}
 echo $FILE_URL
+open -a "/Applications/Safari.app" $FILE_URL #直接使用打开safari
 ```
 调用: 
 ```bash

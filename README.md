@@ -28,6 +28,26 @@ https://github.com/UserName/RepoName/blob/BranchName/images/FileName?raw=true
 ![](https://cdn.jsdelivr.net/gh/WangGuibin/MyFilesRepo/images/avatar.png)
 ```
 
+写了一个shell来实现这个转换`cnd_url.sh`如下:
+```bash
+# !/bin/sh
+
+MATCH_Prefix='https://github.com/'
+URL_Prefix='https://cdn.jsdelivr.net/gh/'
+URL=$1
+RES=${URL_Prefix}${URL: ${#MATCH_Prefix}}
+FILE_URL=${RES%blob*}${RES#*blob/*/}
+echo $FILE_URL
+```
+调用: 
+```bash
+sh cnd_url.sh https://github.com/WangGuibin/MyFilesRepo/blob/master/README.md
+#output
+https://cdn.jsdelivr.net/gh/WangGuibin/MyFilesRepo/README.md
+```
+
+
+
 ## 一些Github的实用小技巧
 ### 下载某分支代码
 https://github.com/UserName/RepoName/archive/BranchName.zip

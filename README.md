@@ -50,6 +50,11 @@ https://cdn.jsdelivr.net/gh/WangGuibin/MyFilesRepo/README.md
 ```
 
 Mac上shell配合`自动操作`如下图
+![](https://cdn.jsdelivr.net/gh/WangGuibin/MyFilesRepo/images/readme_icon00001.png)
+![](https://cdn.jsdelivr.net/gh/WangGuibin/MyFilesRepo/images/readme_icon00002.png)
+![](https://cdn.jsdelivr.net/gh/WangGuibin/MyFilesRepo/images/readme_icon00003.png)
+![](https://cdn.jsdelivr.net/gh/WangGuibin/MyFilesRepo/images/readme_icon00004.png)
+![](https://cdn.jsdelivr.net/gh/WangGuibin/MyFilesRepo/images/readme_icon00005.png)
 
 
 手机上使用快捷指令[下载地址](https://www.icloud.com/shortcuts/c0a21ee9ab6c41b7aa91bb2be16130a7) 使用效果更佳~

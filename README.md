@@ -38,7 +38,9 @@ URL=$1
 RES=${URL_Prefix}${URL: ${#MATCH_Prefix}}
 FILE_URL=${RES%blob*}${RES#*blob/*/}
 echo $FILE_URL
-open -a "/Applications/Safari.app" $FILE_URL #直接使用打开safari
+open -a "/Applications/Safari.app" $FILE_URL
+curl -o ~/Desktop/${FILE_URL##*/} $FILE_URL
+echo "🚀🚀已成功下载至桌面"
 ```
 调用: 
 ```bash
@@ -47,6 +49,10 @@ sh cnd_url.sh https://github.com/WangGuibin/MyFilesRepo/blob/master/README.md
 https://cdn.jsdelivr.net/gh/WangGuibin/MyFilesRepo/README.md
 ```
 
+Mac上shell配合`自动操作`如下图
+
+
+手机上使用快捷指令[下载地址](https://www.icloud.com/shortcuts/c0a21ee9ab6c41b7aa91bb2be16130a7) 使用效果更佳~
 
 
 ## 一些Github的实用小技巧

@@ -1,0 +1,17 @@
+.framework和.a并无本质区别，都是二进制，只不过.framework是封装格式，多套了一层壳或者说是文件夹，里面存放了头文件，资源文件，签名以及头文件保护啥的module map
+.a则更纯粹，直接配合头文件使用。
+
+使用的活，分为几种方式
+① 直接拖拽到工程里使用，需要指定库的所在位置和头文件的所在位置即library search path和heder search path
+② 通过工程依赖，即在同一个workspace里，添加依赖之后，直接切换编译即可使用，这种方式更方便调试
+③ 通过.podspec描述，制作本地库或者远程库进行集成，这种方式一劳永逸，就是podspec文件麻烦一点点而已
+
+
+静态库查看架构
+lipo -info  xxx.a 或者.framework
+合并静态库
+lipo -create  xx.a cc.a  bb.a  -output libxxx.a
+删除静态某一种架构
+lipo  lib.a  -remove  x86_64  -output  lib.a
+查看类framework是静态库还是动态库
+file  xxx.framework

@@ -27,7 +27,7 @@ https://github.com/UserName/RepoName/blob/BranchName/images/FileName?raw=true
 <!-- 免费的CDN小技巧 https://cdn.jsdelivr.net/gh/<username>/<repoName>/xxx/xxx 真的香~  -->
 ![](https://cdn.jsdelivr.net/gh/WangGuibin/MyFilesRepo/images/avatar.png)
 ```
-无意中看到[这位网友的仓库里这样说到](https://github.com/CNAD666/MyData)
+无意中看到[这位网友的仓库里这样说到](https://github.com/CNAD666/MyData) (我暂时没有超过50MB的文件的需求,所以暂时先不弄这个,博客图片一般我都还会先压缩再上传,也就几百kb差不多)
 > 关于CSD加速超50兆限制问题：https://ysnsn.cn/GitHub-jsdelivr.html
 坑点：https://zhaouncle.com/jsdelivr%E5%B0%8F%E5%9D%91%E7%B3%BB%E5%88%97/
 坑：这里必须你是还没满 50M 的时候先创建的 master，否则等满了之后再创建就无效了
